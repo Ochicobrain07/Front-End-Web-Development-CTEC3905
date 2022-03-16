@@ -1,0 +1,175 @@
+*
+{
+	box-sizing: border-box;
+
+}
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* Style the header */
+header
+{
+	background-color: #d6f5d6;
+	height: 200px;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 80px;
+	border-radius: 5px 25px 10px;
+}
+
+/* Style the nav 
+nav
+{
+	float: left;
+
+}
+*/
+
+ul
+{
+	list-style-type: none;
+	margin: 1%;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+#navbar
+{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 87%;
+}
+
+#navbar input[type=search]
+{
+	float: right;
+	padding: 10px;
+	margin-right: 5px;
+	font-size: 20px;
+	border: 2px solid #008CBA;
+	border-radius: 10px;
+}
+
+
+/* Style the section */
+section
+{
+	background-color: #777;
+	height: 200px;
+	width: 100%;
+	padding: 10px;
+	text-align: left;
+	font-size: 12px;
+	margin-bottom: 10px;
+	border-radius: 5px 25px 10px;
+}
+
+/* Style the article */
+article
+{
+	background-color: #888;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff;
+	margin-bottom: 10px;
+	border-radius: 5px 25px 10px;
+}
+
+#product
+{
+	height:500px;
+	background-color: #99ff99;
+}
+#service
+{
+	height:500px;
+	background-color: #00ff00;
+}
+
+/* Style the header aside */
+aside
+{
+	background-color: #999;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 10px;
+	border-radius: 5px 25px 10px;
+}
+
+#legal
+{
+	height:500px;
+	background-color: #ffe6b3;
+}
+#contact
+{
+	height:500px;
+	background-color: #ffb31a;
+}
+
+/* Style the footer */
+footer
+{
+	background-color: #f2d9e6;
+	height: 125px;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 5px 25px 10px;
+}
+
+#soc_med
+{
+	float: right;
+	padding: 1%;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on tablet screens */
+@media (max-width: 600px)
+{
+	*
+	{
+		box-sizing: border-box;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	
+	header, nav, section, article, aside, footer
+	{
+		width: 100%;
+		height: auto;
+	}
+}
+
+/* Responsive layout - makes the one column and boxes stack on top of each other instead of next to each other, on mobile screens */
+@media (max-width: 420px)
+{
+	*
+	{
+		box-sizing: border-box;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	
+	header, nav, section, article, aside, footer
+	{
+		width: 100%;
+		height: auto;
+	}
+}
